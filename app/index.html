@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1
+          class="header__inner-title wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+        >
+          Веб
+          <span class="header__inner-title--now">Разработчик</span>
+        </h1>
+
+        <div class="header__inner">
+          <div class="nav">
+            <input type="checkbox" id="active" />
+            <label for="active" class="menu-btn"><span></span></label>
+            <label for="active" class="close"></label>
+            <div class="wrapper">
+              <ul>
+                <li><a href="#">Портфолио</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+              <div class="header__mess">
+                <a class="header__mess-link" href="#">
+                  <i class="fab fa-vk"></i>
+                </a>
+                <a class="header__mess-link" href="#">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+                <a
+                  class="header__mess-link"
+                  href="https://t.me/Ilya_Merzlyakov"
+                >
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+              </div>
+
+               <div class="fio">
+              <h2>Мерзляков Илья</h2>
+            </div>
+            </div>
+          </div>
+          <div class="header__left">
+            <div class="header__messengers">
+              <a class="header__messengers-link" href="#">
+                <i class="fab fa-vk"></i>
+              </a>
+              <a class="header__messengers-link" href="#">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+              <a
+                class="header__messengers-link"
+                href="https://t.me/Ilya_Merzlyakov"
+              >
+                <i class="fab fa-telegram-plane"></i>
+              </a>
+            </div>
+          </div>
+          <div class="header__center">
+            <img class="header__center-img" src="images/bg.jpg" alt="" />
+            <div class="header__info">
+              <p
+                class="header__info-text wow animate__animated animate__fadeIn"
+                data-wow-duration="5s"
+              >
+                Разработка и верстка продающего дизайна сайтов любой сложности
+                под ключ с учетом целевой аудитории и требуемых задач
+              </p>
+              <div class="header__btn">
+                <a
+                  class="header__btn-link btn"
+                  href="https://t.me/Ilya_Merzlyakov"
+                  >Связаться</a
+                >
+                <a class="header__btn-link btn" href="#works">работы</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="header__right">
+            <div class="header-fio">
+              <h2>Мерзляков Илья</h2>
+            </div>
+
+            <div class="header__fastlinks">
+              <a class="header__fastlinks-factlinks" href="#portfolio">
+                Портфолио
+              </a>
+              <a class="header__fastlinks-factlinks" href="#contact">
+                Контакты
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+     <section class="aboutme">
+        <div class="container">
+          <div class="aboutme__inner">
+            <div class="aboutme__left">
+              <img
+                class="aboutme__left-img wow animate__animated  animate__fadeIn " data-wow-duration="2s"
+                src="images/aboutme/avatar.jpg"
+                alt=""
+              />
+            </div>
+            <div class="aboutme__right">
+              <div class="aboutme__info wow animate__animated animate__backInRight" data-wow-duration="2s">
+                <h2 class="aboutme__info-title">Познакомимся?</h2>
+                <p class="aboutme__info-text">
+                  Меня зовут Илья Мерзляков. Я веб-разработчик с опытом работы
+                  более 1 года. За это время я работал над созданием сайтов
+                  малого, среднего и крупного бинеса, было реализовано более 20
+                  проектов. Основное напралвение- дизайн и верстка
+                  многостраничных сайтов и сервисов, а также
+                  продающих/посадочных страниц
+                </p>
+                <a class="aboutme__info-link btn" href="#"> Портфолио </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section class="whyme">
+        <div class="container">
+          <div class="whyme__inner">
+            <div class="whyme__top">
+              <h2 class="whyme__top-title">Почему я?</h2>
+            </div>
+            <div class="whyme__down">
+              <div class="whyme__items wow animate__animated animate__fadeIn" data-wow-duration="3s">
+                <div class="whyme__up" >
+                  <div class="whyme__item">
+                    <div class="whyme__info">
+                      <h3 class="whyme__info-title">Бесплатная Консультация</h3>
+                      <p class="whyme__info-text">
+                        <span class="white-text">Бесплатно</span> помогу
+                        определить цель вашего сайта, проведу анализ целевой
+                        аудитории и составлю прототип сайта
+                      </p>
+                    </div>
+                  </div>
+                  <div class="whyme__item">
+                    <div class="whyme__info">
+                      <h3 class="whyme__info-title">
+                        Постраничное согласование
+                      </h3>
+                      <p class="whyme__info-text">
+                        Я заинтересован в получении результата, который устроил
+                        бы вас на <span class="white-text">100%</span>.Поэтому
+                        вы будете в курсе каждого этапа работы.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="whyme__bottom">
+                  <div class="whyme__item">
+                    <div class="whyme__info">
+                      <h3 class="whyme__info-title">
+                        Точное определение цены и срока работы
+                      </h3>
+                      <p class="whyme__info-text">
+                        Все детали работы оговариваются "на берегу". Я работаю с
+                        <span class="white-text"
+                          >соблюдением тайминга и сметы</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <div class="whyme__item">
+                    <div class="whyme__info">
+                      <h3 class="whyme__info-title">
+                        Постоянно нахожусь с вами на связи
+                      </h3>
+                      <p class="whyme__info-text">
+                        Если я взял ваш проект, это значит я буду доступен для
+                        вас
+                        <span class="white-text">почти 24/7</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio"  id="portfolio" >
+        <div class="container">
+          <div class="portfolio__inner">
+            <div class="portfolio__top">
+              <h2 class="portfolio__top-title wow animate__animated animate__fadeIn" data-wow-duration="3s">Портфолио</h2>
+            </div>
+
+            <div class="portfolio__down">
+              <div class="portfolio__box">
+                <button type="button" class="portfolio__box-btn"   data-filter="all">Все работы</button>
+                <button type="button" class="portfolio__box-btn"   data-filter=".category-sites">Сайты</button>
+                <button type="button" class="portfolio__box-btn"  data-filter=".category-mobile">Мобильный дизайн</button>
+                <button type="button" class="portfolio__box-btn"  data-filter=".category-brend">Брендинг</button>
+              </div>
+
+              <div class="portfolio__items">
+
+                <a
+                  class="portfolio__item mix category-sites" data-order="1"
+                  href="https://meztakeq.github.io/compucter/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-1.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Компьютерная сборка</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">10 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item mix category-sites " data-order="2"
+                  href="https://meztakeq.github.io/metalex/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-2.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Metalex</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">5 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item mix category-sites" data-order="3"
+                  href="https://meztakeq.github.io/fusion/app/home.html"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-3.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Fusion</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">12 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item mix category-sites " data-order="4"
+                  href="https://meztakeq.github.io/halcyon/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-4.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Halcyon</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">8 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item hidden mix category-sites " data-order="5"
+                  href="https://meztakeq.github.io/luna/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-5.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Luna</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">5 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item hidden mix category-sites " data-order="6"
+                  href="https://meztakeq.github.io/snowboarding/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-6.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Snowboarding</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">10 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  class="portfolio__item hidden mix category-sites " data-order="7"
+                  href="https://meztakeq.github.io/creatives/app/"
+                >
+                  <img
+                    class="portfolio__item-img"
+                    src="images/portfolio/img-7.png"
+                    alt=""
+                  />
+                  <div class="portfolio__content">
+                    <div class="portfolio__info">
+                      <h3 class="portfolio__info-name">Creatives</h3>
+                      <p class="portfolio__info-website">Landing-page</p>
+                    </div>
+                    <div class="portfolio__date">
+                      <p class="portfolio__date-text">
+                        Срок реализации
+                        <span class="portfolio__date-term">7 дней</span>
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stages" id="works">
+        <div class="container">
+          <div class="stages__inner">
+            <div class="stages__top">
+              <h2 class="stages__top-title">Этапы работы со мной</h2>
+              <p class="stages__top-text">
+                Наша работа будет построена следующим образом
+              </p>
+            </div>
+            <div class="stages__down">
+
+              <div class="stages__item wow animate__animated animate__zoomIn" data-wow-duration="1s" >
+                <div class="stages__left">
+                  <span class="stages__left-num">1</span>
+                </div>
+                <div class="stages__right">
+                  <h3 class="stages__right-title">Созвон или личная встреча</h3>
+                  <p class="stages__right-text">
+                    В ходе разговора мы определим цель вашего сайта, целевую
+                    аудиторию, выясним моменты, необходимые для создания
+                    высоконверсионного продукта
+                  </p>
+                </div>
+              </div>
+
+              <div class="stages__item wow animate__animated animate__zoomIn" data-wow-duration="3s">
+                <div class="stages__left">
+                  <span class="stages__left-num">2</span>
+                </div>
+                <div class="stages__right">
+                  <h3 class="stages__right-title">Составление мудборда и создание прототипа</h3>
+                  <p class="stages__right-text">
+                    Для того, чтобы итоговый результат вас устроил, перед тем как приступить к созданию дизайна, я подберу референсы, мы согласуем стилистику будущего сайта 
+                  </p>
+                </div>
+              </div>
+
+              <div class="stages__item wow animate__animated animate__zoomIn" data-wow-duration="5s">
+                <div class="stages__left">
+                  <span class="stages__left-num">3</span>
+                </div>
+                <div class="stages__right">
+                  <h3 class="stages__right-title">Создание непосредственного дизайна сайта</h3>
+                  <p class="stages__right-text">
+                    Создание уникального дизайна вашего сайта с учетом выбранной стилистики.
+                  </p>
+                </div>
+              </div>
+
+              <div class="stages__item wow animate__animated animate__zoomIn" data-wow-duration="7s">
+                <div class="stages__left">
+                  <span class="stages__left-num">4</span>
+                </div>
+                <div class="stages__right">
+                  <h3 class="stages__right-title">Передача дизайна на верстку</h3>
+                  <p class="stages__right-text">
+                    После создания дизайна сайта, макет передается на верстку. Поддерживаю связь до момента конечного внедрения сайта в работу
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="footer wow animate__animated animate__fadeIn" data-wow-duration="2s" id="contact">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__top">
+              <h3 class="footer__top-title">
+                Мерзляков <br> Илья
+              </h3>
+
+              <h4 class="footer__top-text">
+                Веб-разработчик
+              </h4>
+            </div>
+            <div class="footer__down">
+              <div class="footer__left">
+                <ul class="footer__list">
+                  <li class="footer__list-item" ><a class="footer__list-link" href="#portfolio">Портфолио</a></li>
+                  <li class="footer__list-item" ><a class="footer__list-link" href="#contact">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="footer__center">
+                <a class="footer__center-link"  href="#">
+                  <i class="fab fa-vk"></i>
+                  <span class="footer__center-text"  >Вконтакте</span>
+                </a>
+                <a class="footer__center-link" href="#">
+                  <i class="fab fa-google-plus-g"></i>
+                  <span class="footer__center-text">Гугл</span>
+                </a>
+                <a class="footer__center-link" href="https://t.me/Ilya_Merzlyakov">
+                  <i class="fab fa-telegram-plane"></i>
+                  <span class="footer__center-text">Телеграм</span>
+                </a>
+              </div>
+              <div class="footer__right">
+                <h3 class="footer__right-text">
+                  Каждый проект как для себя
+                </h3>
+                <a class="footer__right-link" href="https://t.me/Ilya_Merzlyakov">
+                  Связаться
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>  
+
+     <div class="cursor"></div> 
+    <script src="js/main.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery-1.4.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/8d2596c097.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('a[href^="#"], *[data-href^="#"]').on("click", function (e) {
+          e.preventDefault();
+          var t = 1000;
+          var d = $(this).attr("data-href")
+            ? $(this).attr("data-href")
+            : $(this).attr("href");
+          $("html,body")
+            .stop()
+            .animate({ scrollTop: $(d).offset().top }, t);
+        });
+      });
+    </script>
+  </body>
+</html>

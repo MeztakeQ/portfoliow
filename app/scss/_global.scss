@@ -1,0 +1,178 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  //    font-family: 'Open Sans', sans-serif;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 0;
+  margin: 0 auto;
+  background-color: rgb(34, 33, 33);
+  overflow-x:hidden;
+  
+  
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h6,
+h5,
+h4,
+h3,
+h2,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  color: rgb(168, 167, 167);
+  position: relative;
+  font-weight: 600;
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  margin-right: 100px;
+  &:hover {
+    color: #fff;
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  &:before {
+    top: 0;
+    left: 0;
+  }
+
+  &:after {
+    top: 100%;
+    right: 0;
+  }
+
+  &:hover:before,
+  &:hover:after {
+    width: 100%;
+  }
+}
+
+
+
+.cursor {
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #fff;
+    position: absolute;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim .5s infinite alternate;
+    pointer-events: none;
+    cursor: none;
+}
+
+
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(-1);
+    }
+    50% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.white-text{
+  color: #fff;
+}
+
+
+
+
+
+html, body {
+   ::-webkit-scrollbar {
+    display: none;
+
+}  
+}
+
+
+.nav{
+  display: none;
+  z-index: 100;
+}
+
+
+
+
